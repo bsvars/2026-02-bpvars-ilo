@@ -47,7 +47,7 @@ $$ $$
 
 ### **bpvars** [website](https://bsvars.org/bpvars) and [CRAN](https://cran.r-project.org/package=bpvars) profile {style="color:#1A003F;"}
 
-### [vignette](https://bsvars.org/bpvars), [tutorial](https://bsvars.org/bpvars) and [manual](https://cloud.r-project.org/web/packages/bpvars/bpvars.pdf) {style="color:#1A003F;"}
+### [vignette](https://github.com/bsvars/2026-02-bpvars-ilo/blob/5be79db41ba1e6eaa8b5ded34482421c25b4c167/resources/bpvars.pdf), [tutorial](https://github.com/bsvars/2026-02-bpvars-ilo/blob/5be79db41ba1e6eaa8b5ded34482421c25b4c167/resources/ilo_tutorial.pdf) and [manual](https://cloud.r-project.org/web/packages/bpvars/bpvars.pdf) {style="color:#1A003F;"}
 
 ### [bsvars.org](https://bsvars.org/) website {style="color:#1A003F;"}
 
@@ -73,11 +73,6 @@ capacity to extract signal from data
 - highly computational, application-specific modelling
 - inspirations: UN, IPCC, ECB, FED, Christopher Sims
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
-
-
 
 
 
@@ -92,9 +87,6 @@ capacity to extract signal from data
 - embedded flexibility
 - parameter estimation risk accountability
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -108,9 +100,6 @@ capacity to extract signal from data
 - forecasting for models with exogenous variables
 - restricted forecasting of rates
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -125,9 +114,6 @@ capacity to extract signal from data
 - flexible 3-level hierarchical prior structure
 - density forecasting
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -145,9 +131,6 @@ capacity to extract signal from data
 		
 - subscript $c$ is for country, and $t$ is for time
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -165,9 +148,6 @@ capacity to extract signal from data
 		\boldsymbol\epsilon_{c.t}\mid \mathbf{y}_{c.t-1} & \sim N_4\left(\mathbf{0}_4, \boldsymbol\Sigma\right)
 \end{align}
 		
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -187,9 +167,6 @@ capacity to extract signal from data
 - robustness to different prior specifications
 - convenient estimation using the Gibbs sampler
 		
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -209,9 +186,6 @@ capacity to extract signal from data
 - $MNIW$ is the matrix normal-inverse Wishart distribution (see [Woźniak (2016)](https://doi.org/10.1111/1467-8462.12179))
 - $W$ is the Wishart distribution
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -230,9 +204,6 @@ s &\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 		
 - $IG2$ is the inverted gamma 2 distribution
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -253,9 +224,6 @@ s &\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 - is implied by the model
 - is the same as frequentist predictive density
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -277,9 +245,6 @@ s &\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 
 - conditional density structure determines the sampling algorithm
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
 
 
 
@@ -315,11 +280,6 @@ devtools::install_github("bsvars/bpvars")
 ```
 
 
-::: footer
-[Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/)
-:::
-
-
 
 <!-- ## the R package [bpvars](https://github.com/bsvars/bpvars) -->
 
@@ -335,9 +295,6 @@ devtools::install_github("bsvars/bpvars")
 
 <!-- ![](grph_paper.png){.absolute top=100 right=250 width="600"} -->
 
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 
 
 
@@ -358,9 +315,6 @@ devtools::install_github("bsvars/bpvars")
 <!-- ilo_dynamic_panel$COL           # show the data for Colombia -->
 <!-- ``` -->
 
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 
 
 
@@ -392,10 +346,6 @@ devtools::install_github("bsvars/bpvars")
 
 <!-- ``` -->
 
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
-
 
 
 
@@ -417,9 +367,6 @@ devtools::install_github("bsvars/bpvars")
 <!-- ) -->
 <!-- ``` -->
 
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 
 
 
@@ -437,9 +384,6 @@ devtools::install_github("bsvars/bpvars")
 <!-- plot(fore, "COL", main = "Forecasts for Colombia") -->
 <!-- ``` -->
 
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 
 
 
@@ -457,9 +401,6 @@ devtools::install_github("bsvars/bpvars")
 <!-- summary(fore, "COL")$variable2 -->
 <!-- ``` -->
 
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 
 
 
@@ -478,9 +419,6 @@ devtools::install_github("bsvars/bpvars")
 <!--   plot(which_c = "COL")                              # plot variance decompositions -->
 <!-- ``` -->
 
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 
 
 

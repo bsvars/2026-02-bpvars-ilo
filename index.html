@@ -353,7 +353,7 @@ by Tomasz Woźniak
 <h3 style="color:#1A003F;" id="lecture-slides-as-a-website">Lecture Slides <a href="https://bsvars.org/2026-02-bpvars-ilo/">as a website</a></h3>
 <h3 style="color:#1A003F;" id="github-repo-to-reproduce-the-slides-and-results">GitHub <a href="https://github.com/bsvars/2026-02-bpvars-ilo">repo</a> to reproduce the slides and results</h3>
 <h3 style="color:#1A003F;" id="bpvars-website-and-cran-profile"><strong>bpvars</strong> <a href="https://bsvars.org/bpvars">website</a> and <a href="https://cran.r-project.org/package=bpvars">CRAN</a> profile</h3>
-<h3 style="color:#1A003F;" id="vignette-tutorial-and-manual"><a href="https://bsvars.org/bpvars">vignette</a>, <a href="https://bsvars.org/bpvars">tutorial</a> and <a href="https://cloud.r-project.org/web/packages/bpvars/bpvars.pdf">manual</a></h3>
+<h3 style="color:#1A003F;" id="vignette-tutorial-and-manual"><a href="https://github.com/bsvars/2026-02-bpvars-ilo/blob/5be79db41ba1e6eaa8b5ded34482421c25b4c167/resources/bpvars.pdf">vignette</a>, <a href="https://github.com/bsvars/2026-02-bpvars-ilo/blob/5be79db41ba1e6eaa8b5ded34482421c25b4c167/resources/ilo_tutorial.pdf">tutorial</a> and <a href="https://cloud.r-project.org/web/packages/bpvars/bpvars.pdf">manual</a></h3>
 <h3 style="color:#1A003F;" id="bsvars.org-website"><a href="https://bsvars.org/">bsvars.org</a> website</h3>
 </section>
 <section id="modelling-and-forecasting-framework-1" class="slide level2" data-background-color="#1614B1">
@@ -369,9 +369,6 @@ by Tomasz Woźniak
 <li>highly computational, application-specific modelling</li>
 <li>inspirations: UN, IPCC, ECB, FED, Christopher Sims</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="modelling-and-forecasting-framework-3" class="slide level2">
 <h2>modelling and forecasting framework</h2>
@@ -384,9 +381,6 @@ by Tomasz Woźniak
 <li>embedded flexibility</li>
 <li>parameter estimation risk accountability</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="modelling-and-forecasting-framework-4" class="slide level2">
 <h2>modelling and forecasting framework</h2>
@@ -398,9 +392,6 @@ by Tomasz Woźniak
 <li>forecasting for models with exogenous variables</li>
 <li>restricted forecasting of rates</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="the-model" class="slide level2">
 <h2>the model</h2>
@@ -411,9 +402,6 @@ by Tomasz Woźniak
 <li>flexible 3-level hierarchical prior structure</li>
 <li>density forecasting</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="the-model-1" class="slide level2">
 <h2>the model</h2>
@@ -427,9 +415,6 @@ by Tomasz Woźniak
 <ul>
 <li>subscript <span class="math inline">\(c\)</span> is for country, and <span class="math inline">\(t\)</span> is for time</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="the-model-2" class="slide level2">
 <h2>the model</h2>
@@ -441,9 +426,6 @@ by Tomasz Woźniak
         \mathbf{y}_{c.t} &amp;= \mathbf{A}_{1} \mathbf{y}_{c.t-1} + \mathbf{A}_{d}\mathbf{x}_{c.t} + \boldsymbol\epsilon_{c.t}\\[1ex]
         \boldsymbol\epsilon_{c.t}\mid \mathbf{y}_{c.t-1} &amp; \sim N_4\left(\mathbf{0}_4, \boldsymbol\Sigma\right)
 \end{align}\]</span></p>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="the-model-3" class="slide level2">
 <h2>the model</h2>
@@ -460,9 +442,6 @@ by Tomasz Woźniak
 <li>robustness to different prior specifications</li>
 <li>convenient estimation using the Gibbs sampler</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="the-model-4" class="slide level2">
 <h2>the model</h2>
@@ -477,9 +456,6 @@ by Tomasz Woźniak
 <li><span class="math inline">\(MNIW\)</span> is the matrix normal-inverse Wishart distribution (see <a href="https://doi.org/10.1111/1467-8462.12179">Woźniak (2016)</a>)</li>
 <li><span class="math inline">\(W\)</span> is the Wishart distribution</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="the-model-5" class="slide level2">
 <h2>the model</h2>
@@ -494,9 +470,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <ul>
 <li><span class="math inline">\(IG2\)</span> is the inverted gamma 2 distribution</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="forecasting" class="slide level2">
 <h2>forecasting</h2>
@@ -509,9 +482,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <li>is implied by the model</li>
 <li>is the same as frequentist predictive density</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="forecasting-1" class="slide level2">
 <h2>forecasting</h2>
@@ -527,9 +497,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <ul>
 <li>conditional density structure determines the sampling algorithm</li>
 </ul>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 </section>
 <section id="the-r-package-bpvars-1" class="slide level2" data-background-color="#1614B1">
 <h2>the R package <a href="https://github.com/bsvars/bpvars">bpvars</a></h2>
@@ -550,9 +517,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <li>install the package from the <a href="https://github.com/bsvars/bpvars">GitHub repo</a></li>
 </ul>
 <pre><code>devtools::install_github("bsvars/bpvars")</code></pre>
-<div class="footer">
-<p><a href="https://bsvars.org/2025-03-bpvars-ilo/">Forecasting with Bayesian Panel VARs</a></p>
-</div>
 <!-- ## the R package [bpvars](https://github.com/bsvars/bpvars) -->
 <!-- ![](grph_package.png){.absolute top=100 right=250 width="600"} -->
 <!-- ::: footer -->
@@ -560,9 +524,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <!-- ::: -->
 <!-- ## the R package [bpvars](https://github.com/bsvars/bpvars) -->
 <!-- ![](grph_paper.png){.absolute top=100 right=250 width="600"} -->
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 <!-- ## the R package [bpvars](https://github.com/bsvars/bpvars)  -->
 <!-- ### load data {style="color:#1A003F;"} -->
 <!-- ```{r} -->
@@ -573,9 +534,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <!-- data(ilo_dynamic_panel)         # load the data -->
 <!-- ilo_dynamic_panel$COL           # show the data for Colombia -->
 <!-- ``` -->
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 <!-- ## the R package [bpvars](https://github.com/bsvars/bpvars)  -->
 <!-- ### specify and estimate the model {style="color:#1A003F;"} -->
 <!-- ```{r} -->
@@ -591,9 +549,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <!-- burn = estimate(spec, S = 10000, show_progress = FALSE) # run the burn-in -->
 <!-- post = estimate(burn, S = 10000)                        # estimate the model -->
 <!-- ``` -->
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 <!-- ## the R package [bpvars](https://github.com/bsvars/bpvars) -->
 <!-- ### forecast labour market outcomes {style="color:#1A003F;"} -->
 <!-- ```{r} -->
@@ -607,9 +562,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <!--   conditional_forecast = ilo_conditional_forecasts   # gdp projections -->
 <!-- ) -->
 <!-- ``` -->
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 <!-- ## the R package [bpvars](https://github.com/bsvars/bpvars) -->
 <!-- ### forecast labour market outcomes {style="color:#1A003F;"} -->
 <!-- ```{r} -->
@@ -618,9 +570,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <!-- #| warning: false -->
 <!-- plot(fore, "COL", main = "Forecasts for Colombia") -->
 <!-- ``` -->
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 <!-- ## the R package [bpvars](https://github.com/bsvars/bpvars) -->
 <!-- ### forecast labour market outcomes {style="color:#1A003F;"} -->
 <!-- ```{r} -->
@@ -629,9 +578,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <!-- #| warning: false -->
 <!-- summary(fore, "COL")$variable2 -->
 <!-- ``` -->
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 <!-- ## the R package [bpvars](https://github.com/bsvars/bpvars) -->
 <!-- ### forecast error variance decomposition {style="color:#1A003F;"} -->
 <!-- ```{r} -->
@@ -642,9 +588,6 @@ s &amp;\sim IG2\left(\underline{s}_s, \underline{\nu}_s\right)\\[3ex]
 <!--   compute_variance_decompositions(horizon = 6) |>    # compute variance decompositions -->
 <!--   plot(which_c = "COL")                              # plot variance decompositions -->
 <!-- ``` -->
-<!-- ::: footer -->
-<!-- [Forecasting with Bayesian Panel VARs](https://bsvars.org/2025-03-bpvars-ilo/) -->
-<!-- ::: -->
 </section>
 <section id="section-1" class="slide level2" data-background-color="#1614B1">
 <h2></h2>
